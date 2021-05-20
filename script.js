@@ -9,7 +9,7 @@ var taskObject = {
 
 function renderDay(){
 	$("#currentDay").text(currentDate);
-	for(var i=6; i<20; i++){
+	for(var i=9; i<18; i++){
 		var timeRow = $("<div>").attr({"class": "row"});
 		var amPm; 
 		var timeOfDay = i;
